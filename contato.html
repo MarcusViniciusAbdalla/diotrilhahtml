@@ -27,8 +27,53 @@
     
             <div class="content">
                 
-                <h1>Sobre nós</h1>
-                <p>Clinica MED.COM é um Centro  <strong>avançado</strong> de Reabilitação, Educação e Tratamento da Dor em Goiânia, com um espaço físico único e uma equipe de profissionais experientes. Uma Clínica idealizada para oferecer um atendimento personalizado com tratamento moderno no controle e prevenção de dores crônicas e agudas. Somos, segundo a Sociedade Internacional para o Estudo da Dor, um centro multidisciplinar onde além do tratamento individualizado com equipe integrada, realiza-se ensino e pesquisa.</p>
+              <form>
+                <div class="field">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome aqui" required>
+                </div>
+
+                <div class="field">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="exemplo@mail.com" required>
+                </div>
+                
+                <div class="field">
+                    <label for="assunto">Assunto</label>
+                    <input type="number" id="assunto" name="nome" placeholder="Fale o assunto desejado" required>
+                </div>
+                
+
+                <div class="field">
+                    <label>Qual a melhor forma para entrarmos em contato com vocês?</label>
+                    <br>
+
+                    <div>
+                        <input type="radio" id="contact-email" value="contact-email" name="contact">
+                        <label for="contact-email">Email</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" id="contact-call" value="contact-call" name="contact">
+                        <label for="contact-call">Ligação</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="contact-whatsapp" value="contact-whatsapp" name="contact">
+                        <label for="contact-whatsapp">Whatsapp</label>
+                    </div> 
+                </div>
+
+                <div class="field">
+                    <label for="mensagem">Mensagem</label><br>
+                    <textarea name="message" id="message" cols="20" rows="10"></textarea>
+                </div>
+                
+
+                <button class="submit" type="submit">Enviar</button>
+                <button class="reset" type="reset">Limpar</button>              
+                
+            </form>
             </div>
     
             <div class="footer">

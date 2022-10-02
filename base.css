@@ -24,8 +24,24 @@ body {
 }
 .menu {
   width: 15%;
-  background-color: aqua;
+  background-color:rgb(99, 56, 240);
   padding: 10px 20px 0px;
+  text-decoration: none;
+
+}
+
+ul li a{
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 4rem;
+}
+
+li {
+  list-style: none;
+  
 }
 .header {
   background-color: #385E72;
@@ -44,7 +60,7 @@ body {
   background-color: #f1f1f1;
 }
 .footer {
-  background-color: rgb(99, 56, 240);
+  background-color: #385E72;
   min-height: 150px;
 }
 

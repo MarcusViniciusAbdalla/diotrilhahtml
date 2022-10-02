@@ -31,12 +31,17 @@ body {
   background-color: #385E72;
   min-height: 150px;
   height: 150px;
+  width: 100%;
 }
 
 .content {
   background-color: white;
   min-height: 300px;
   padding: 20px;
+  text-align: justify;
+  font-size: 2rem;
+  line-height: 4rem;
+  background-color: #f1f1f1;
 }
 .footer {
   background-color: rgb(99, 56, 240);
@@ -44,6 +49,11 @@ body {
 }
 
 img {
-  width: 10rem;
+  width: 15rem;
   display: flex;
+
+}
+
+h1 {
+  color: blue;
 }
